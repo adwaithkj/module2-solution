@@ -1,0 +1,170 @@
+* {
+    background-color: #c1dbb3;
+    box-sizing: border-box;
+    
+    
+}
+.heading {
+    font-style: italic;
+   
+    font-size: 2em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #769fb6;
+
+}
+header {
+    font-family: 'Gotham', sans-serif;
+    text-align: center;
+    font-size: 2em;
+    
+   
+}
+.section1{
+    width: 33.33%;
+    float: left;
+    height: 50px;
+    
+
+
+    
+}
+h1 {
+    color: #188fa7;
+    background-color: #db4f4a5d;
+    font-style: italic;
+    
+}
+.section2{
+    width: 33.33%;
+    float: left;
+
+
+
+}
+.section3{
+    width: 33.33%;
+    float: left;
+
+
+
+}
+
+/* breakpoints at 992px, 768 and 991px , 767px */
+@media (min-width: 992px) {
+    .section1{
+        width: 33.33%;
+        float: left;
+        height: 150px;
+        border-style: solid;
+        overflow: auto;
+        background-color: #9dbbae;
+        
+    
+    
+        
+    }
+    .section2{
+        width: 33.33%;
+        float: left;
+        height: 150px;
+        border-style: solid;
+        overflow: auto;
+        background-color: #9dbbae;
+    
+    
+    
+    }
+    .section3{
+        width: 33.33%;
+        float: left;
+        height: 150px;
+        border-style: solid;
+        overflow: auto;
+        background-color: #9dbbae;
+    
+    
+    
+    }
+    
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .section1{
+        width: 50%;
+        float: left;
+        height: 150px;
+        border-style: solid;
+        overflow: auto;
+        background-color: #9dbbae;
+        
+        
+        
+        
+    
+    
+        
+    }
+    .section2{
+        width: 50%;
+        float: left;
+        overflow: auto;
+        height: 150px;
+        border-style: solid;
+        background-color: #9dbbae;
+        
+        
+        
+    
+    
+    }
+    .section3{
+        width: 50%;
+        float: left;
+        overflow: auto;
+        height: 150px;
+        border-style: solid;
+        background-color: #9dbbae;
+        
+        
+        
+    
+    
+    }
+    
+
+}
+@media (max-width: 767px) {
+    .section1{
+        width: 100%;
+        float: left;
+        height: 150px;
+        border-style: solid;
+        overflow: auto;
+        background-color: #9dbbae;
+       
+    
+        
+    }
+    .section2{
+        width: 100%;
+        float: left;
+        height: 150px;
+        border-style: solid;
+        overflow: auto;
+        background-color: #9dbbae;
+    
+    
+    
+    }
+    .section3{
+        width: 100%;
+        float: left;
+        height: 150px;
+        border-style: solid;
+        overflow: auto;
+        background-color: #9dbbae;
+    
+    
+    
+    }
+    
+}
