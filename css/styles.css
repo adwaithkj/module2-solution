@@ -67,12 +67,13 @@ h1 {
 /* breakpoints at 992px, 768 and 991px , 767px */
 @media (min-width: 992px) {
     .section1{
-        width: 33.33%;
+        width: 32%;
         float: left;
         height: 150px;
         border-style: solid;
         overflow: auto;
         background-color: #9dbbae;
+        margin: 3px;
         
         
         
@@ -81,24 +82,24 @@ h1 {
         
     }
     .section2{
-        width: 33.33%;
+        width: 32%;
         float: left;
         height: 150px;
         border-style: solid;
         overflow: auto;
         background-color: #9dbbae;
-    
+        margin: 3px;
     
     
     }
     .section3{
-        width: 33.33%;
+        width: 32%;
         float: left;
         height: 150px;
         border-style: solid;
         overflow: auto;
         background-color: #9dbbae;
-    
+        margin: 3px;
     
     
     }
@@ -106,14 +107,14 @@ h1 {
 }
 @media (min-width: 768px) and (max-width: 991px) {
     .section1{
-        width: 50%;
+        width: 49%;
         float: left;
         height: 150px;
         border-style: solid;
         overflow: auto;
         background-color: #9dbbae;
         margin-bottom: 10px;
-        
+        margin: 3px;
         
         
         
@@ -122,12 +123,13 @@ h1 {
         
     }
     .section2{
-        width: 50%;
+        width: 49%;
         float: left;
         overflow: auto;
         height: 150px;
         border-style: solid;
         background-color: #9dbbae;
+        margin: 3px;
         
         
         
@@ -135,7 +137,7 @@ h1 {
     
     }
     .section3{
-        width: 50%;
+        width: 100%;
         float: left;
         overflow: auto;
         height: 150px;
