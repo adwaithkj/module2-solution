@@ -3,14 +3,22 @@
     box-sizing: border-box;
     
     
+    
+    
+    
+}
+section {
+    padding-top: 5px;
 }
 .heading {
     font-style: italic;
+    text-align: right;
    
     font-size: 2em;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: #769fb6;
-
+   
+    
 }
 header {
     font-family: 'Gotham', sans-serif;
@@ -23,6 +31,9 @@ header {
     width: 33.33%;
     float: left;
     height: 50px;
+    padding: 4px;
+    
+
     
 
 
@@ -37,6 +48,8 @@ h1 {
 .section2{
     width: 33.33%;
     float: left;
+    padding: 4px;
+    
 
 
 
@@ -44,6 +57,7 @@ h1 {
 .section3{
     width: 33.33%;
     float: left;
+    padding: 4px;
 
 
 
@@ -58,6 +72,8 @@ h1 {
         border-style: solid;
         overflow: auto;
         background-color: #9dbbae;
+        
+        
         
     
     
@@ -95,6 +111,7 @@ h1 {
         border-style: solid;
         overflow: auto;
         background-color: #9dbbae;
+        margin-bottom: 10px;
         
         
         
@@ -123,6 +140,7 @@ h1 {
         height: 150px;
         border-style: solid;
         background-color: #9dbbae;
+        clear: left;
         
         
         
@@ -140,6 +158,8 @@ h1 {
         border-style: solid;
         overflow: auto;
         background-color: #9dbbae;
+        margin-bottom: 10px;
+        
        
     
         
@@ -151,6 +171,8 @@ h1 {
         border-style: solid;
         overflow: auto;
         background-color: #9dbbae;
+        margin-bottom: 10px;
+        
     
     
     
